@@ -1,0 +1,38 @@
+data-1 (n=100)
+  x: mean=8.71769618641382  std=12.155517231222024  min=-22.635877790008944  max=35.23705548785129
+  y: mean=12.522874034702584  std=6.63996400756785  min=-2.565087832693213  max=27.38415261152477
+  correlation r = 0.9503256954375483
+data-2 (n=100)
+  x: mean=-0.7107871267159572  std=11.481583587790734  min=-33.2711130771198  max=27.6470003722073
+  y: mean=-0.7489869764497991  std=6.257917998755848  min=-18.621803760419063  max=14.14731499231748
+  correlation r = 0.9551531665750373
+data-3 (n=300)
+  x: mean=0.9689074904200939  std=2.23555786105797  min=-2.4490643296742807  max=4.51888491755363
+  y: mean=8.508535236641327  std=1.1493008110024527  min=6.641734490391763  max=10.551871022804317
+  correlation r = 0.9819372646760661
+data-4 (n=118)
+  x: mean=49.90508614830509  std=28.508610519881927  min=0.0  max=87.3767
+  y: mean=18.553836525423726  std=16.545896442941686  min=0.0  max=44.56504
+  correlation r = -0.08119306735490815
+data-5 (n=118)
+  x: mean=49.90999357843095  std=28.500000943801364  min=4.337892453674525  max=91.0528633396976
+  y: mean=18.555524937729086  std=16.540796301840782  min=0.0554975075811517  max=49.93419703633311
+  correlation r = -0.08823598983058888
+data-6 (n=100)
+  x: mean=7.21615517960992  std=11.921599067458313  min=-24.33382075234097  max=35.402138910929
+  y: mean=7.602215028237295  std=11.764382455006647  min=-22.9563569970746  max=36.07987403078143
+  correlation r = 0.9350685662094906
+
+
+
+data 1: shows a strong positive linear relationship. so if y increases as x increases.
+
+data-2: same a strong positive linear relationship. but kind of centered around zero and a few points on both ends.
+
+data-3: The data forms 4 separate clusters. The clusters move upward from left to right. so a positive correlation.
+
+data-4: The data forms a rectangular border and at the bottom right it form SFU. 
+
+data-5: this data appears in vertical bands. like  x values are grouped and y values are wide. 
+
+data-6: the points follow an straight positive line. but a few outliers out from the line. 

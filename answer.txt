@@ -1,0 +1,24 @@
+1. 
+The square root transform (np.sqrt) worked best. After taking sqrt of the counts,
+the weekend data passed the normality test. p value was = 0.108.  the two groups passed the
+equal variance test (Levene p = 0.556). 
+The weekday data still failed normality cause p = 0.0369.But it was the closest overall. The other transforms (log, exp, square)
+either left an equal-variance problem or made normality worse.
+
+2. 
+Original t test: if we reject the null hypothesis, the conclusion would be
+the mean daily number of reddits is different on weekdays compared to weekends.
+transformed data ttest: if we reject the null hypothesis, the conclusion would be 
+the mean of the square root of the daily comment counts is different between
+weekdays and weekends.  - 
+3. 
+the by-week T test does the best job of answering the original question 
+The original T test gives a very small p-value. But the original data fails the normality test. it also fail the equal variance test
+transformed data improves the assumptions. But still has one normality problem.
+ weekly data passes the normality tests and equalvariance test. the weekly t test still gives a very small p value. so it gives a stronger answer.
+in the fix3, mann whitney U test is also useful because it does not need normal data.
+but it answer different rank-based question instead of comparing means
+
+4. 
+Weekdays. On average there are about 1823.5785440613026 comments per day on weekdays compared to
+about 1269.5071770334928 per day on weekends. So,more comments are posted on weekdays.
